@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /property.php
+Disallow: /agent/
+Disallow: /admin/
+Disallow: /api_*.php
+
+Sitemap: https://zeeae.com/sitemap.php

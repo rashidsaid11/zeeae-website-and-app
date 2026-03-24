@@ -1,0 +1,46 @@
+{
+  "name": "ZeeAE – UAE Rentals",
+  "short_name": "ZeeAE",
+  "description": "Find rental properties across all UAE emirates on an interactive live map.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#120928",
+  "theme_color": "#2d1b69",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["real-estate", "maps", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live Map",
+      "short_name": "Map",
+      "description": "Browse live property listings",
+      "url": "/",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Agent Portal",
+      "short_name": "Portal",
+      "description": "Manage your listings",
+      "url": "/agent-login.php",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
